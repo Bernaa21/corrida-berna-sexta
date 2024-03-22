@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>corrida</title>
+</head>
+<body>
+
+
+    <div class="container1">
+        <div class="menu">
+            <div class="saldo" id="saldo">
+            R$100.00
+            </div>
+
+            <input type="number" placeholder="Aposta: R$0.00" id="inputaposta" min="5" value="" />
+            <select name="competidores" id="competidorSelecionado" value="disabled">
+
+            <option value="shrek">Shrek</option>
+            <option value="kratos">Kratos</option>
+            <option value="mike">Mike Wazowski</option>
+            <option value="mago">Mago Negro do Yugi-Oh</option>
+            <option value="caramelo">Cachorro Caramelo</option>
+
+        </select>
+            <button id="botaocorrida" onclick="corrida(); mudarbotao(); verificarsaldo();">Começar</button>
+        </div>
+
+        <div class="container2">
+            <div class="pista" id="pista">
+                <div class="competidor" id="shrek"></div>
+                <div class="competidor" id="kratos"></div>
+                <div class="competidor" id="mike"></div>
+                <div class="competidor" id="mago"></div>
+                <div class="competidor" id="caramelo"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="script.js"></script>
+
+</html>

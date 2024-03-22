@@ -1,0 +1,118 @@
+body {
+    height: 45rem;
+    background-color: #5b5b58;
+}
+
+.container1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.menu {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.menu select {
+    width: 150px;
+    text-align: center;
+}
+
+.saldo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 6px;
+    font-size: 25px;
+    font-family:sans-serif;
+    font-weight: 500;
+}
+
+#inputaposta {
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px;
+    border-color: yellow;
+}
+
+/* botao da corrida aqui */
+
+button {
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 800;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* pista aqui */
+
+.container2 {
+    background-image: url(imgs/fund1.png);
+    background-size: auto;
+    background-color: #009900;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pista{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3.5rem;
+    background-image: url(imgs/pista.jpg);
+    background-size: contain
+}
+
+/* competidores */
+
+.competidor {
+    height: 40px;
+    width: 50px;
+    margin-left: 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+#shrek {
+    background-color: #5b5b58;
+    background-image: url(imgs/shrek.jpg);
+}
+
+#kratos {
+    background-image: url(imgs/kratos.png);
+}
+
+#mike {
+    background-image: url(imgs/mike.jpg);
+}
+
+#mago {
+    background-image: url(imgs/mago.png);
+}
+
+#caramelo {
+    background-image: url(imgs/caramelo.jpg);
+}
